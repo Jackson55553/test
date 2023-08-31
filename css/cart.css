@@ -1,11 +1,12 @@
 body{
 	margin: 0;
-}
-.header{
 	background-image: url(../jpg/bg.jpg);
-	height: 100vh;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+.header{
+	height: 100vh;
+	
 }
 .container{
 	background-color: goldenrod;

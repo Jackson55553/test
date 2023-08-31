@@ -1,11 +1,12 @@
 body{
 	margin: 0;
-}
-.header{
 	background-image: url(../jpg/bg.jpg);
-	height: 100vh;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+.header{
+	height: 100vh;
+	
 }
 .container{
 	background-color: goldenrod;
@@ -54,9 +55,11 @@ body{
 	border-right: 1px solid #FFFFFF;
 	height: 50px;
 	align-items: center;
+
 }
 .cart-img{
 	position: relative;
+	z-index: 2;
 }
 .cart_count{
 	position: relative;
@@ -64,12 +67,14 @@ body{
 	top: 5px;
 	text-decoration: none;
 	text-align: center;
-	height: 12px;
-	width: 12px;
-	background-color: #fff;
+	height: 30px;
+	width: 30px;
+	background-color: #ffc800;
 	border-radius: 50px;
-	font-size: 10px;
+	font-size: 24px;
+	color: #fff;
 	transition: color 0.2s linear;
+	z-index: 1;
 }
 .cart_count:hover {
 	color: #d81d1d;
