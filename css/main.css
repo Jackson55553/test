@@ -139,8 +139,9 @@ body{
 }
 .welcome-holder{
 	margin-top: 80px;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin-left: 30px;
+	margin-right: 30px;
+	padding: 10px;
 	background-color: #241703c9;
 	border-radius: 20px;
 }
@@ -150,6 +151,7 @@ body{
 	flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
+    justify-items: center;
 }
 .welcome-text-start{
 	font-family: 'Phudu', cursive;
@@ -188,12 +190,38 @@ body{
 	top: 182px;
     right: 716px;
 }
-.welcome-compliment:before{
+.welcome-text-end:after{
 	position: absolute;
 	content: "";
 	height: 2px;
 	width: 81px;
 	background-color: #fff;
 	top: 182px;
-    right: 716px;
+    left: 716px;
+}
+.welcome-button{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	margin-right: 30px;
+	margin-left: 30px;
+}
+.welcome-btn{
+	margin: 20px;
+	font-family: 'Phudu', cursive;
+	background-color: #ffc800;
+	border-radius: 10px;
+	border-color: orange;
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 500;
+	padding: 15px;
+	transition: color 0.4s linear, transform 1s;
+
+}
+.welcome-btn:hover {
+	color: #d81d1d;
+	transform: scale(1.2);
 }
