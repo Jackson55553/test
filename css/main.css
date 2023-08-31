@@ -9,9 +9,9 @@ body{
 	
 }
 .container{
-	background-color: goldenrod;
 }
 .header-line{
+	background-color: goldenrod;
 	display: flex;
 	width: 100%;
 	justify-content: space-between;
@@ -28,6 +28,7 @@ body{
 	margin: 0px 50px;
 }
 .nav-item{
+	font-family: 'Phudu', cursive;
 	display: flex;
 	flex-wrap: nowrap;
 	white-space: nowrap;
@@ -98,15 +99,17 @@ body{
 	margin-right: 10px;
 }
 .num{
+	font-family: 'Phudu', cursive;
 	color: #fff;
 	text-decoration: none;
-	font-weight: 700;
+	font-weight: 400;
 	transition: color 0.2s linear;
 }
 .num:hover{
 	color: #d81d1d;
 }
 .phone-text{
+	font-family: 'Phudu', cursive;
 	color: #fff;
 	font-weight: 700;
 }
@@ -119,6 +122,7 @@ body{
 	margin-left: 30px;
 }
 .button{
+	font-family: 'Phudu', cursive;
 	background-color: #ffc800;
 	border-radius: 10px;
 	border-color: orange;
@@ -132,4 +136,64 @@ body{
 .button:hover {
 	color: #d81d1d;
 	transform: scale(1.2);
+}
+.welcome-holder{
+	margin-top: 80px;
+	margin-left: 10px;
+	margin-right: 10px;
+	background-color: #241703c9;
+	border-radius: 20px;
+}
+.welcome{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.welcome-text-start{
+	font-family: 'Phudu', cursive;
+	font-size: 50px;
+	font-weight: 400;
+	color: #ffc800;
+	line-height: 57px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+.welcome-text-end{
+	font-family: 'Phudu', cursive;
+	font-size: 80px;
+	font-weight: 400;
+	color: #ffc800;
+	line-height: 92px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+.welcome-compliment{
+	font-family: 'Phudu', cursive;
+	margin-top: 20px;
+	font-size: 22px;
+	font-weight: 400;
+	color: #fff;
+	line-height: 25px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+.welcome-compliment:after{
+	position: absolute;
+	content: "";
+	height: 2px;
+	width: 81px;
+	background-color: #fff;
+	top: 182px;
+    right: 716px;
+}
+.welcome-compliment:before{
+	position: absolute;
+	content: "";
+	height: 2px;
+	width: 81px;
+	background-color: #fff;
+	top: 182px;
+    right: 716px;
 }
