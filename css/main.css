@@ -138,12 +138,15 @@ body{
 	transform: scale(1.2);
 }
 .welcome-holder{
+	position: relative;
 	margin-top: 80px;
 	margin-left: 30px;
 	margin-right: 30px;
 	padding: 10px;
 	background-color: #241703c9;
 	border-radius: 20px;
+	height: auto;
+	min-height: 400px;
 }
 .welcome{
 	position: relative;
@@ -163,6 +166,7 @@ body{
 	text-align: left;
 }
 .welcome-text-end{
+	position: relative;
 	font-family: 'Phudu', cursive;
 	font-size: 80px;
 	font-weight: 400;
@@ -181,23 +185,23 @@ body{
 	letter-spacing: 0em;
 	text-align: left;
 }
-.welcome-compliment:after{
-	position: absolute;
-	content: "";
-	height: 2px;
-	width: 81px;
-	background-color: #fff;
-	top: 182px;
-    right: 716px;
-}
 .welcome-text-end:after{
 	position: absolute;
 	content: "";
 	height: 2px;
 	width: 81px;
 	background-color: #fff;
-	top: 182px;
-    left: 716px;
+	top: 125px;
+    right: 49px;
+}
+.welcome-text-end:before{
+	position: absolute;
+	content: "";
+	height: 2px;
+	width: 81px;
+	background-color: #fff;
+	top: 125px;
+    left: 49px;
 }
 .welcome-button{
 	display: flex;
@@ -224,4 +228,23 @@ body{
 .welcome-btn:hover {
 	color: #d81d1d;
 	transform: scale(1.2);
+}
+.advantages{
+
+}
+.advantaes-container ol{
+	list-style: none;
+}
+.nav-advantaes{
+	display: flex;
+	position: relative;
+	background-color: #fff;
+	flex-direction: row;
+	flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.adv-item{
+	display: flex;
+	position: relative;
 }
