@@ -236,6 +236,7 @@ body{
 	list-style: none;
 }
 .nav-advantaes{
+	margin: 0 300px;
 	display: flex;
 	position: relative;
 	background-color: #fff;
@@ -246,5 +247,17 @@ body{
 }
 .adv-item{
 	display: flex;
+	align-items: center;
+	height: 200px;
+	width: 200px;
+	display: flex;
 	position: relative;
+	margin-right: 100px;
+	background-color: goldenrod;
+}
+.adv-img{
+	position: absolute;
+	height: 50px;
+	width: auto;
+	margin-top: 0;
 }
