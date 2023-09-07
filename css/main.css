@@ -232,7 +232,8 @@ body{
 	transform: scale(1.2);
 }
 .advantages{
-	
+	position: relative;
+	top: 180px;
 }
 .advantaes-container ol{
 	list-style: none;
