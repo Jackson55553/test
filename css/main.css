@@ -19,7 +19,7 @@ body{
 	width: 100%;
 	justify-content: space-between;
 	align-items: center;
-	position: sticky;
+	padding: 10px 0px;
 }
 .header-logo{
 	margin-left: 50px;
@@ -144,18 +144,19 @@ body{
 .welcome-holder{
 	position: relative;
 	background-color: #000000a8;
-	height: auto;
-	min-height: 600px;
+	height: 86%;
 	min-width: 980px;
+	box-shadow: 0px 10px 20px 0px #000000a8;
 }
 .welcome{
 	position: relative;
-	top: 50px;
+	top: 70px;
 	display: flex;
 	flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-items: center;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-items: center;
+
 }
 .welcome-text-start{
 	font-family: 'Phudu', cursive;
@@ -178,7 +179,7 @@ body{
 }
 .welcome-compliment{
 	font-family: 'Phudu', cursive;
-	margin-top: 20px;
+	margin: 20px 0px;
 	font-size: 22px;
 	font-weight: 400;
 	color: #fff;
@@ -193,7 +194,7 @@ body{
 	width: 81px;
 	background-color: #fff;
 	top: 125px;
-    right: 49px;
+	right: 49px;
 }
 .welcome-text-end:before{
 	position: absolute;
@@ -202,14 +203,14 @@ body{
 	width: 81px;
 	background-color: #fff;
 	top: 125px;
-    left: 49px;
+	left: 49px;
 }
 .welcome-button{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	position: relative;
-	top: 50px;
+	top: 70px;
 	margin-right: 30px;
 	margin-left: 30px;
 }
@@ -243,10 +244,10 @@ body{
 	padding: 0;
 	flex-direction: row;
 	flex-wrap: wrap;
-    align-items: center;
-    min-width: 960px;
-    justify-content: center;
-    }
+	align-items: center;
+	min-width: 960px;
+	justify-content: center;
+}
 .adv-item{
 	display: flex;
 	flex-direction: column;
@@ -335,6 +336,7 @@ body{
 }
 .text_finish{
 	width: 50%;
+	min-width: 476px;
 	display: flex;
 	position: relative;
 	align-content: center;
@@ -403,7 +405,8 @@ body{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-right: 50px;	
+	justify-content: center;
+	margin: 0px 25px;	
 }
 .count_drinks{
 	font-family: Open Sans;
@@ -475,6 +478,7 @@ body{
 	background: #000000D9;
 	width: 100%;
 	height: 100%;
+	box-shadow: 20px 0px 30px 3px #00000080;
 }
 .invitation_text{
 	display: flex;
@@ -490,7 +494,7 @@ body{
 	letter-spacing: 0em;
 	text-align: left;
 	color: #D67E34;
-;
+	;
 }
 .invitation_text_end{
 	font-family: Open Sans;
@@ -643,7 +647,7 @@ body{
 	height: 2px;
 	width: 40%;
 	background-color: black;
-	}
+}
 .price_food{
 	display: flex;
 	justify-content: center;

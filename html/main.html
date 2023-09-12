@@ -10,25 +10,26 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Phudu:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" content="text/css" href="../css/main.css">
+	<script src="../js/script.js" defer></script>
 	<title>Restoran</title>
 </head>
 <body>
 	<div class="header">
 		<div class="container">
 			<div class="header-line">
-					<div class="header-logo">
-						<img src="../png/circle.png">
-					</div>
+				<div class="header-logo">
+					<img src="../png/circle.png">
+				</div>
 
-					<div class="nav">
-						<a class="nav-item" href="main.html">Главная</a>
-						<a class="nav-item" href="@">Меню</a>
-						<a class="nav-item" href="@">О нас</a>
-						<a class="nav-item" href="@">Бронь</a>
-					</div>
-					<div class="right-side">	
+				<div class="nav">
+					<a class="nav-item" href="main.html">Главная</a>
+					<a class="nav-item" href="@">Меню</a>
+					<a class="nav-item" href="@">О нас</a>
+					<a class="nav-item" href="@">Бронь</a>
+				</div>
+				<div class="right-side">	
 					<div class="cart">
-												
+						
 						<a href="cart.html">
 							<img class="cart-img" src="../png/cart1.png" alt="phone">
 						</a>
@@ -46,15 +47,15 @@
 						<div class="phone-holder">
 							<div class="number">
 								<a class="num" href="@">
-								 +7 918 342 24 37
+									+7 918 342 24 37
 								</a>
 							</div>
 							<div class="phone-text">
-									Свяжитесь с нами для заказа
+								Свяжитесь с нами для заказа
 							</div>
 						</div>
 					</div>	
-					</div>
+				</div>
 				<div class="btn">
 					<a class="button" href="@">Нажми</a>
 				</div>
@@ -71,8 +72,8 @@
 						ДОМ ЛУЧШЕЙ ЕДЫ
 					</div>
 				</div>
-				<div class="welcome-button">
-					<a class="welcome-btn" href="#">Нажми</a>
+				<div class="welcome-button" id="welcome-button">
+					<a class="welcome-btn" id="welcome-btn" href="#">Нажми</a>
 				</div>
 				<div class="advantages">
 					<div class="advantaes-container">
@@ -104,84 +105,83 @@
 				</div>
 			</div>
 			<div class="hystory">
-					<div class="hystory_text">
-						<div class="hystory_text_container">
-							<a class="text_start">
-								Наша <span class="history_word">История</span>
-							</a>
-							<a class="text_finish">
-								Как и у любого другого самобытного места, у нас есть своя, особая история. Идея ресторана пришла основателям неожиданно. Во время прогулки по лесу создатель нашего ресторана застрял в сотнях километров от ближайшего населенного пункта. Вдали от цивилизации и связи им пришлось навремя обустровать себе нехитрый быт, добывать и готовить себе еду.
-							</a>
-						</div>
-						<div class="hystory_count">
-							<div class="count_container">
-								<a class="count_drinks">93</a>
-								<a class="text_drinks">Напитки</a>
-							</div>
-							<div class="count_container">
-								<a class="count_food">206</a>
-								<a class="text_food">Еда</a>
-							</div>
-							<div class="count_container">
-								<a class="count_snaks">71</a>
-								<a class="text_snaks">Закуски</a>
-							</div>
-						</div>
+				<div class="hystory_text">
+					<div class="hystory_text_container">
+						<a class="text_start">
+							Наша <span class="history_word">История</span>
+						</a>
+						<a class="text_finish">
+							Как и у любого другого самобытного места, у нас есть своя, особая история. Идея ресторана пришла основателям неожиданно. Во время прогулки по лесу создатель нашего ресторана застрял в сотнях километров от ближайшего населенного пункта. Вдали от цивилизации и связи им пришлось навремя обустровать себе нехитрый быт, добывать и готовить себе еду.
+						</a>
 					</div>
-					<div class="hystory_pic">
-						<img class="food" src="../png/233] 1.png">
-						<img class="table" src="../png/255 1.png">
-						<img class="cake" src="../png/430 1.png">
-						<img class="box" src="../png/design box.png">
-					</div>
-				</div>
-				<div class="invitation-advertising">
-					<div class="invitation_container">
-						<div class="invitation_text">
-							<a class="invitation_text_start">Отпразднуйте в одном из 
-								самых лучших ресторанов.</a>
-							<a class="invitation_text_end">Только в этом месяце бизнес-ланч от 250 ₽</a>
+					<div class="hystory_count">
+						<div class="count_container">
+							<a class="count_drinks">93</a>
+							<a class="text_drinks">Напитки</a>
 						</div>
-						<div class="invitation_button">
-							<a class="invitation_btn" href="#">ЗАКАЗ СТОЛИКА</a>
+						<div class="count_container">
+							<a class="count_food">206</a>
+							<a class="text_food">Еда</a>
+						</div>
+						<div class="count_container">
+							<a class="count_snaks">71</a>
+							<a class="text_snaks">Закуски</a>
 						</div>
 					</div>
 				</div>
-				<div class="our_food">
-					<div class="our_food_container">
-						<div class="header_food">
-							<a class="header_food_text"> Наши <span class="header_food_word"> Блюда</span></a>
+				<div class="hystory_pic">
+					<img class="food" src="../png/233] 1.png">
+					<img class="table" src="../png/255 1.png">
+					<img class="cake" src="../png/430 1.png">
+					<img class="box" src="../png/design box.png">
+				</div>
+			</div>
+			<div class="invitation-advertising">
+				<div class="invitation_container">
+					<div class="invitation_text">
+						<a class="invitation_text_start">Отпразднуйте в одном из 
+						самых лучших ресторанов.</a>
+						<a class="invitation_text_end">Только в этом месяце бизнес-ланч от 250 ₽</a>
+					</div>
+					<div class="invitation_button">
+						<a class="invitation_btn" href="#">ЗАКАЗ СТОЛИКА</a>
+					</div>
+				</div>
+			</div>
+			<div class="our_food">
+				<div class="our_food_container">
+					<div class="header_food">
+						<a class="header_food_text"> Наши <span class="header_food_word"> Блюда</span></a>
+					</div>
+					<div class="our_food_pic_container">
+						<div class="our_food_big_pic">
+							<img src="../png/pizza.png">
 						</div>
-						<div class="our_food_pic_container">
-							<div class="our_food_big_pic">
-								<img src="../png/pizza.png">
+						<div class="our_food_pics">
+							<ol class="nav_food_pic">
+								<li class="nav_food_item">
+									<img src="../png/hamburger.png">
+								</li>
+								<li class="nav_food_item">
+									<img src="../png/hamburger.png">
+								</li>
+								<li class="nav_food_item">
+									<img src="../png/hamburger.png">
+								</li>
+							</ol>
+						</div>
+						<div class="our_food_price">
+							<div class="price_item">
+								<a class="food_name">Гамбургер мини</a>
+								<a class="price_food"> 220 ₽</a>
 							</div>
-							<div class="our_food_pics">
-								<ol class="nav_food_pic">
-									<li class="nav_food_item">
-										<img src="../png/hamburger.png">
-									</li>
-									<li class="nav_food_item">
-										<img src="../png/hamburger.png">
-									</li>
-									<li class="nav_food_item">
-										<img src="../png/hamburger.png">
-									</li>
-								</ol>
+							<div class="price_item">
+								<a class="food_name">Гамбургер мини</a>
+								<a class="price_food">220 ₽</a>
 							</div>
-							<div class="our_food_price">
-								<div class="price_item">
-									<a class="food_name">Гамбургер мини</a>
-									<a class="price_food"> 220 ₽</a>
-								</div>
-								<div class="price_item">
-									<a class="food_name">Гамбургер мини</a>
-									<a class="price_food">220 ₽</a>
-								</div>
-								<div class="price_item">
-									<a class="food_name">Гамбургер мини</a>
-									<a class="price_food">220 ₽</a>
-								</div>
+							<div class="price_item">
+								<a class="food_name">Гамбургер мини</a>
+								<a class="price_food">220 ₽</a>
 							</div>
 						</div>
 					</div>
@@ -189,5 +189,6 @@
 			</div>
 		</div>
 	</div>
+</div>
 </body>
 </html>
