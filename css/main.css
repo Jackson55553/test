@@ -56,21 +56,21 @@ body{
 	align-items: center;
 }
 #cart_container{
-    position: relative;
+    position: static;
     display: flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-around;
 	background-color: #ffc800;
 	border-radius: 60px;
-	height: 35px;
-	width: 40px;
+	height: 70px;
+	width: 70px;
 	transition: 1s;
-	margin-right: 20px;
+	margin-left: 100px;
 }
 #cart_container:hover{
 	transform: scale(1.2);
-	width: 60px;
+	width: 90px;
 }
 #cart_img{
     position: relative;
@@ -80,6 +80,7 @@ body{
 #cart_container:hover > #cart_count{
 	visibility: visible;
     opacity: 1;
+    color: red;
 }
 #cart_container:hover > #cart_img{
 	left: 0;
@@ -90,6 +91,8 @@ body{
     opacity: 0;
     transition: 1s;
     color: #fff;
+    font-size: 24px;
+    text-decoration: none;
 }
 .phone{
 	display: flex;
